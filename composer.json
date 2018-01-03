@@ -1,0 +1,33 @@
+{
+    "name": "abuseio/findcontact-cpanel",
+    "description": "AbuseIO module for ip lookups in Cpanel.",
+    "version": "1.0.2",
+    "keywords": ["laravel", "abuseio", "findcontact", "cpanel"],
+    "homepage": "http://abuse.io",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "AbuseIO Foundation",
+            "email": "dev@abuse.io",
+            "homepage": "http://abuse.io",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "email": "dev@abuse.io",
+        "issues": "https://github.com/AbuseIO/AbuseIO/issues",
+        "irc": "irc://irc.freenode.net/abuseio",
+        "source": "https://github.com/AbuseIO/findcontact-cpanel",
+        "docs": "https://abuse.io/resources/documentation/"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "gufy/cpanel-php":"~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseIO\\FindContact\\": "src/"
+        }
+    }
+}
