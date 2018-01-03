@@ -1,6 +1,9 @@
 # findcontact-cpanel
 findcontact module for IP lookups using the Cpanel Api
 
+##Beta
+This software is in beta. Please test and report back to us.
+
 ## Installation
     
     composer require abuseio/findcontact-cpanel
